@@ -56,7 +56,7 @@ export default function Testimonials() {
                     ))}
                   </div>
                   
-                  <p className="text-white/80 mb-6 italic">"{testimonial.comment}"</p>
+                  <p className="text-white/80 mb-6 italic">&quot;{testimonial.comment}&quot;</p>
                   
                   <div className="flex items-center gap-3">
                     <img 
