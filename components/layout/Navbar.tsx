@@ -4,7 +4,6 @@ import React, { useState } from "react"
 import { ShoppingCart, Search, Menu, User, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { cn } from "@/lib/utils"
 
 const Navbar = () => {
   const [open, setOpen] = useState(false)

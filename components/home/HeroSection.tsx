@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { ChevronRight, ChevronLeft, Award, Clock, Zap, Play, Pause, ArrowRight, Trophy, Shield, Target } from "lucide-react"
+import { ChevronRight, ChevronLeft,  Play, Pause, ArrowRight, Trophy, Shield, Target } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const features = [

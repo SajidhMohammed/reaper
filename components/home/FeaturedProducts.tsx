@@ -5,6 +5,7 @@ import { motion } from "framer-motion"
 import { ShoppingCart, Heart, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import Link from "next/link"
 
 interface Product {
   id: number
@@ -70,13 +71,15 @@ const FeaturedProducts = () => {
               viewport={{once:true}} 
               transition={{delay:0.05*i}}
             >
-              <Card className="group rounded-2xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-xl hover:bg-white/10 transition">
+              <Card className="group rounded-2xl overflow-hidden border text-white border-white/10 bg-white/5 backdrop-blur-xl hover:bg-white/10 transition">
                 <CardContent className="p-0">
                   <div className="relative">
+                  <Link href={`/Product/${p.id}`}>
                     <img src={p.image} alt={p.name} className="h-56 w-full object-cover" />
                     <span className="absolute left-3 top-3 text-[11px] font-bold bg-emerald-500 text-black px-2 py-1 rounded-full">
                       {p.badge}
                     </span>
+                  </Link>
                     <Button 
                       variant="outline" 
                       size="icon" 
