@@ -19,7 +19,7 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    name: "Reaper Pulse Headphones",
+    name: "Repaid Pulse Headphones",
     price: "$149",
     rating: 4.7,
     image: "https://images.unsplash.com/photo-1518441902110-5810a4b1c80d?q=80&w=1200&auto=format&fit=crop",
@@ -27,7 +27,7 @@ const products: Product[] = [
   },
   {
     id: 2,
-    name: "Reaper Carbon Backpack",
+    name: "Repaid Carbon Backpack",
     price: "$119",
     rating: 4.5,
     image: "https://images.unsplash.com/photo-1514477917009-389c76a86b68?q=80&w=1200&auto=format&fit=crop",
@@ -35,7 +35,7 @@ const products: Product[] = [
   },
   {
     id: 3,
-    name: "Reaper Aero Sneakers",
+    name: "Repaid Aero Sneakers",
     price: "$129",
     rating: 4.6,
     image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop",
@@ -43,7 +43,7 @@ const products: Product[] = [
   },
   {
     id: 4,
-    name: "Reaper Titan Watch",
+    name: "Repaid Titan Watch",
     price: "$199",
     rating: 4.8,
     image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?q=80&w=1200&auto=format&fit=crop",

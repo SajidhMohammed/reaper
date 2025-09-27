@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="h-9 w-9 rounded-xl bg-gradient-to-br from-emerald-400/30 to-emerald-500/60 ring-1 ring-emerald-400/50 flex items-center justify-center shadow-[0_0_40px_0_rgba(16,185,129,0.35)]">
               <span className="font-black text-xl tracking-tight text-emerald-100">R</span>
             </div>
-            <span className="font-extrabold text-lg sm:text-xl tracking-wide">Reaper</span>
+            <span className="font-extrabold text-lg sm:text-xl tracking-wide">Repaid</span>
           </div>
 
           <div className="hidden md:flex items-center gap-8 text-sm text-white/80">

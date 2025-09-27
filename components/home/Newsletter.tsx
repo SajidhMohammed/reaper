@@ -8,7 +8,7 @@ export default function Newsletter() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         <Card className="rounded-3xl border border-white/10 bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-xl">
           <CardContent className="p-8 text-center">
-            <h3 className="text-2xl font-bold mb-2">Join the Reaper Community</h3>
+            <h3 className="text-2xl font-bold mb-2">Join the Repaid Community</h3>
             <p className="text-white/70 max-w-2xl mx-auto mb-6">
               Subscribe to our newsletter for exclusive deals, product launches, and style tips.
             </p>

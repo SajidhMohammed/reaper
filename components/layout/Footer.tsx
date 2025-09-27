@@ -12,7 +12,7 @@ export default function Footer() {
               <div className="h-8 w-8 rounded-xl bg-gradient-to-br from-emerald-400/30 to-emerald-500/60 ring-1 ring-emerald-400/50 flex items-center justify-center">
                 <span className="font-black text-lg text-emerald-100">R</span>
               </div>
-              <span className="font-bold">Reaper</span>
+              <span className="font-bold">Repaid</span>
             </div>
             <p className="mb-4">Glassy commerce for the speed-obsessed.</p>
             <div className="flex gap-3">
@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-8 flex flex-wrap items-center justify-between gap-4 pt-6 border-t border-white/10">
-          <p>© {new Date().getFullYear()} Reaper. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Repaid. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <a href="#" className="hover:text-white">Privacy</a>
             <a href="#" className="hover:text-white">Terms</a>

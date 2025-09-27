@@ -13,7 +13,7 @@ const ProductDetails = ({ params }: { params: { id: string } }) => {
   // Mock product data - in a real app, you'd fetch this based on the ID
   const product = {
     id: 1,
-    name: "Reaper Pulse Headphones",
+    name: "Repaid Pulse Headphones",
     price: "$149",
     rating: 4.7,
     images: [
@@ -23,7 +23,7 @@ const ProductDetails = ({ params }: { params: { id: string } }) => {
       "https://images.unsplash.com/photo-1546435770-a3e426bf472b?q=80&w=1200&auto=format&fit=crop"
     ],
     badge: "New",
-    description: "Experience immersive audio with the Reaper Pulse Headphones. Featuring advanced noise cancellation, premium sound quality, and a comfortable over-ear design perfect for extended listening sessions.",
+    description: "Experience immersive audio with the Repaid Pulse Headphones. Featuring advanced noise cancellation, premium sound quality, and a comfortable over-ear design perfect for extended listening sessions.",
     features: [
       "Active Noise Cancellation",
       "30-hour battery life",
@@ -63,7 +63,7 @@ const ProductDetails = ({ params }: { params: { id: string } }) => {
   const relatedProducts = [
     {
       id: 5,
-      name: "Reaper SoundBlast Speakers",
+      name: "Repaid SoundBlast Speakers",
       price: "$179",
       rating: 4.6,
       image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?q=80&w=1200&auto=format&fit=crop",
@@ -71,7 +71,7 @@ const ProductDetails = ({ params }: { params: { id: string } }) => {
     },
     {
       id: 6,
-      name: "Reaper Audio Cable Pack",
+      name: "Repaid Audio Cable Pack",
       price: "$49",
       rating: 4.3,
       image: "https://images.unsplash.com/photo-1599669454699-248893623464?q=80&w=1200&auto=format&fit=crop",

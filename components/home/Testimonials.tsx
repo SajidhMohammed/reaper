@@ -8,7 +8,7 @@ const testimonials = [
     id: 1,
     name: "Alex Johnson",
     role: "Tech Enthusiast",
-    comment: "The Reaper headphones are incredible! The sound quality is unmatched and the design is sleek.",
+    comment: "The Repaid headphones are incredible! The sound quality is unmatched and the design is sleek.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop"
   },
@@ -16,7 +16,7 @@ const testimonials = [
     id: 2,
     name: "Samantha Lee",
     role: "Fashion Blogger",
-    comment: "I love my Reaper backpack! It's stylish, durable and fits all my gear perfectly.",
+    comment: "I love my Repaid backpack! It's stylish, durable and fits all my gear perfectly.",
     rating: 5,
     image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=200&auto=format&fit=crop"
   },
@@ -24,7 +24,7 @@ const testimonials = [
     id: 3,
     name: "Michael Chen",
     role: "Product Designer",
-    comment: "The attention to detail in Reaper products is exceptional. You can tell they care about quality.",
+    comment: "The attention to detail in Repaid products is exceptional. You can tell they care about quality.",
     rating: 4,
     image: "https://images.unsplash.com/photo-1513956589380-bad6acb9b9d4?q=80&w=200&auto=format&fit=crop"
   }
